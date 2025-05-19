@@ -1,0 +1,23 @@
+library(tidyverse)   # For data wrangling and visualization
+library(lubridate)   # For handling date and time
+air_pollution <- read_csv("C:/Users/HP PC/Downloads/air_pollution.csv")
+View(air_pollution)
+colnames(air_pollution) <- make.names(colnames(air_pollution))
+colSums(is.na(air_pollution))
+clean_data <- na.omit(air_pollution)
+clean_data$PM2.5.AQI.Value <- as.numeric(clean_data$PM2.5.AQI.Value)
+clean_data$NO2.AQI.Value <- as.numeric(clean_data$NO2.AQI.Value)
+clean_data$CO.AQI.Value <- as.numeric(clean_data$CO.AQI.Value)
+clean_data$Ozone.AQI.Value <- as.numeric(clean_data$Ozone.AQI.Value)
+write.csv(clean_data, "cleaned_air_pollution.csv", row.names = FALSE)
+colnames(air_pollution)
+colnames(air_pollution) <- make.names(colnames(air_pollution))
+clean_data <- na.omit(air_pollution)
+clean_data$AQI.Value <- as.numeric(clean_data$AQI.Value)
+clean_data$CO.AQI.Value <- as.numeric(clean_data$CO.AQI.Value)
+clean_data$Ozone.AQI.Value <- as.numeric(clean_data$Ozone.AQI.Value)
+clean_data$NO2.AQI.Value <- as.numeric(clean_data$NO2.AQI.Value)
+clean_data$PM2.5.AQI.Value <- as.numeric(clean_data$PM2.5.AQI.Value)
+clean_data <- clean_data %>%
+  select(Country,City,AQI.Value, CO.AQI.Value, Ozone.AQI.Value, NO2.AQI.Value, PM2.5.AQI.Value)
+write.csv(clean_data, "cleaned_air_pollution.csv", row.names = FALSE)
