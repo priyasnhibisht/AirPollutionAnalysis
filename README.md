@@ -1,6 +1,5 @@
-![image121](https://github.com/user-attachments/assets/29ba98a7-e2b1-4fe5-a2ec-7689ea008d42)# Air Quality Insights - R Shiny App
+# Air Quality Insights - R Shiny App
 
-![Air Quality Insights Banner](https://user-images.githubusercontent.com/image121.jpg)
 
 ## Overview
 
@@ -14,7 +13,6 @@
 - 🤖 **Model Selection:** Choose between Linear Regression and Random Forest models
 - 📈 **Instant AQI Prediction** with health impact messages
 - 📊 **Summary Table** of your inputs and results
-- ⏳ **Loading Spinner** for a smooth user experience
 - ⚠️ **Error Handling** with clear user feedback
 
 ---
@@ -63,7 +61,7 @@
 
 ## Repository Structure
 
-air-quality-insights/
+air-quality-insights
 ├── app.R
 ├── model1.rds
 ├── model2.rds
