@@ -1,6 +1,6 @@
-# Air Quality Insights - R Shiny App
+![image121](https://github.com/user-attachments/assets/29ba98a7-e2b1-4fe5-a2ec-7689ea008d42)# Air Quality Insights - R Shiny App
 
-![Air Quality Insights Banner](https://user-images.githubusercontent.com/your-banner-image.png)
+![Air Quality Insights Banner](https://user-images.githubusercontent.com/image121.jpg)
 
 ## Overview
 
@@ -16,12 +16,6 @@
 - 📊 **Summary Table** of your inputs and results
 - ⏳ **Loading Spinner** for a smooth user experience
 - ⚠️ **Error Handling** with clear user feedback
-
----
-
-## Demo
-
-![App Screenshot](https://user-images.githubusercontent.com/your-app-screenshot.png)
 
 ---
 
