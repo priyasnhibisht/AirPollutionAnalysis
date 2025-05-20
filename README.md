@@ -86,16 +86,5 @@ Contributions are welcome! Please:
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-For questions, suggestions, or contributions, please contact [your.email@example.com](mailto:your.email@example.com) or open an issue in the repository.
-
----
 
 *Happy coding and clean air for all!*
