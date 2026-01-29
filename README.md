@@ -26,7 +26,11 @@
 
 ## Dashboard Preview
 
-![Air Quality Insights Dashboard](plots/dashboard_preview.png)
+<p align="center">
+  <img src="images/dashboard_preview1.png" width="45%">
+  <img src="images/dashboard_preview.png" width="45%">
+</p>
+
 
 
 ## Key Learnings & Insights
