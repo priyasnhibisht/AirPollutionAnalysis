@@ -24,6 +24,11 @@
 
 ---
 
+## Dashboard Preview
+
+![Air Quality Insights Dashboard](plots/dashboard_preview.png)
+
+
 ## Key Learnings & Insights
 - PM2.5 has the strongest influence on AQI levels
 - Ensemble models (Random Forest) provided more stable predictions than linear models
