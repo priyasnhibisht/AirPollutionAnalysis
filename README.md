@@ -17,6 +17,19 @@
 
 ---
 
+## Technologies Used
+- **Programming:** R
+- **Libraries:** ggplot2, dplyr, randomForest, shiny
+- **Concepts:** Data preprocessing, visualization, regression, ensemble learning
+
+---
+
+## Key Learnings & Insights
+- PM2.5 has the strongest influence on AQI levels
+- Ensemble models (Random Forest) provided more stable predictions than linear models
+- Interactive dashboards significantly improve interpretability of analytical results
+
+---
 
 ## Usage
 
@@ -25,6 +38,11 @@
 3. Click the **Submit** button to view the predicted AQI, its category, and the associated health message.
 
 ---
+
+## Future Enhancements
+- Add time-series forecasting for AQI trends
+- Integrate real-time pollution data via APIs
+- Deploy the app publicly for wider accessibility
 
 
 *Happy coding and clean air for all!*
