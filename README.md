@@ -28,7 +28,7 @@
 
 <p align="center">
   <img src="images/dashboard_preview1.png" width="45%">
-  <img src="images/dashboard_preview.png" width="45%">
+  <img src="images/dasboard_preview.png" width="45%">
 </p>
 
 
