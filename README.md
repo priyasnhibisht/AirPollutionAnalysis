@@ -1,5 +1,8 @@
 # Air Quality Insights - R Shiny App
 
+## 🎥 Demo Video
+
+[![Watch the demo](https://youtu.be/EHKULwTrONM)
 
 ## Overview
 
